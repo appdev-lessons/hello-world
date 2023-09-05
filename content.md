@@ -1,8 +1,8 @@
-# Your first static web site: Hello, World!
+# Deploying Static HTML to GitHub Pages: Hello, World!
 
 In this lesson, we'll walk through the workflow that we'll be using throughout the course to set up projects, write some code, run the code, and grade our work.
 
-[Here is a very brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. But then PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
+[Here is a very brief video demonstration](https://share.descript.com/view/TKs2FpwqkMO). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. But then PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
 
 ## Get a GitHub account
 
@@ -178,27 +178,17 @@ In the terminal tab, we have:
 * A `+` button icon for opening additional fresh bash prompts in tabs.
 * If you open another bash tab, you will see a navigation pane to click between them.
 
-## `rackup`: Your live application preview
+## `bin/dev`: Your live application preview
 
 In the terminal pane, click on the `+` icon to open a second bash prompt, then click on the prompt so that your cursor is shown after the `%` bash prompt. Type this command then hit <kbd>return</kbd>:
 
 ```
-rackup
+% bin/dev
 ```
 
-<!-- ![](/assets/bash-vs-rackup-puma.gif) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689098330/bash-vs-rackup-puma_pmbidx.gif)
-{: .bleed-full }
+You should see a long output, which is just telling you that the **live application preview** is running. You can no longer type into this terminal tab now (you won't see the `%` sign), because it is now dedicated to running your application server using the `puma` web server program.
 
-A few things should have happened:
-
-* The name of the current prompt in the navigation pane should have changed from `bash` to `puma`. This name is telling you the current program that is running in that terminal. In this case `puma`, which is the web server that we are using to view the app. In the original terminal, you will still see `bash` and if you click back to that terminal you will see the `%` bash prompt.
-
-* In the terminal that is now running the `puma` web server, you should see a long output, which is just telling you that the **live application preview** is running. You can no longer type into this terminal tab now (you won't see the `%` sign), because it is now dedicated to running your application server.
-
-* You may be prompted in a little pop-up message to "Open browser". 
-
-To open the live app preview in a new browser tab, visit the "Ports" tab in the bottom pane, look for the port with a green dot 🟢 on the left side (indicating that it is active), and hover over the "Local Address" column, then click the globe 🌐 button to "Open in Browser":
+To open the live app preview in a new browser tab, visit the "Ports" tab in the bottom pane, look for the port with a green dot 🟢 on the left side (indicating that it is active), and hover over the "Local Address" column, then click the globe 🌐 button to "Open in Browser"
 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1688656108/ports-tab_cfaa1k.png)
 
@@ -208,13 +198,14 @@ If you ever close this browser tab, you can reopen the live app preview at any t
 
 ---
 
-The live app preview has a long, complicated URL, with the structure:
+The live preview has a long, complicated URL, with the structure:
 
 ```
 https://USERNAME-CODESPACE-NAME-vrpqrxxrx7x2rxx-3000.preview.app.github.dev
 ```
+{: .bleed-full }
 
-This URL is tied to the mini computer you are running in your Codespace. Specifically, it's tied to the terminal that you ran `rackup` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the Codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `rackup` again.
+This URL is tied to the mini computer you are running in your Codespace. Specifically, it's tied to the terminal that you ran `bin/dev` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the Codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `bin/dev` again to restart the server.
 
 At this point, in the live application browser tab you should see a 404 page missing message. Let's change that!
 
@@ -222,7 +213,7 @@ At this point, in the live application browser tab you should see a 404 page mis
 
 Right-click in the file explorer (left pane) in VSCode and let's create our first HTML file. Call it `index.html`.
 
-In that `index.html` file that opens in a new editor tab (top pane), put the following code:
+In that `index.html` file that opens in the editor (top pane), put the following code:
 
 ```html
 <h1>Hello, world!</h1>
@@ -239,6 +230,26 @@ long-domain-name.preview.app.github.dev/index.html
 But if there's a file with the specific name of `index.html`, then it will be displayed when someone visits the "naked", i.e. "root", domain.)
 
 Yay! Our first web page is up and running.
+
+## Enable GitHub Pages deployment
+
+We've made a web page and we can see the results in our live app preview. But what if we want other people to be able to visit our site, and we want the site to be up and running even after we shut down our Codespace?
+
+For that, we have to **deploy** our app to a hosting service. Fortunately, GitHub has yet _another_ great, free product for hosting static HTML websites, called GitHub Pages. Let's get that going!
+
+Visit your repo's page (e.g. `github.com/<your-username>/hello-world`), click on "Settings", and then find "Pages" in the left sidebar. 
+
+Under "Build and deployment", make sure the "Source" is set to "Deploy from a branch". Under the "Branch", use the dropdown menu to select `main` for the branch and `/(root)` for the location of your files, then click "Save":
+
+<aside markdown="1">
+A single forward slash (`/`) indicates the `root` or top folder in your codebase. Anything else (e.g. `/assets/thumbnails/`), is a folder or sequence of folders under the top level.
+</aside>
+
+<!-- ![](/assets/gh-pages-deploy-settings.png) -->
+![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686166899/gh-pages-deploy-settings_jrye2b.png)
+{: .bleed-full }
+
+We're now ready to deploy.
 
 ## Git commit and push
 
@@ -290,16 +301,60 @@ Visit the repo at `github.com/<your-username>/hello-world` to see the published 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689105276/vscode-git-pushed-history-hello-world-2_yz3has.png)
 {: .bleed-full }
 
+## Deploy!
+
+Guess what? Your app is already online (or will be very soon)!
+
+Because we enabled GitHub Pages deployment, anytime you push a commit to GitHub, your app will be built and deployed to GitHub's super-fast, free hosting service.
+
+<aside markdown="1">
+At first, you may only find the content of the `README` file in the repo at `https://<your-username>.github.io/hello-world/`. If you don't have an `index.html` file in your repo in the `/(root)` folder, then GitHub pages treats the `README` as that file and maps your homepage there.
+
+And, how did the page actually deploy? If you visit the "Actions" tab in your code repository, you will see the "pages build and deployment" workflow that ran to deploy the static site. This GitHub Action will be run every time you make changes and publish them to the `main` branch of your repository!
+</aside>
+
+After you commit and push, return to your copy of the GitHub repository by navigating to `github.com/<your-username>/hello-world`. 
+
+Visit the "Settings" > "Pages" tab in your `<your-username>/hello-world` repository. 
+
+Refresh the page after a couple of minutes, and eventually you should see the note "Your site is live at `https://<your-username>.github.io/hello-world/`":
+
+<!-- ![](/assets/gh-pages-settings-link-to-page.png) -->
+![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686167259/gh-pages-settings-link-to-page_ie0rd4.png)
+{: .bleed-full }
+
+If you visit the page by clicking "Visit site" to open in a new tab, you will see your deployed content: "Hello, world!".
+
+**You just built a website that anyone on the internet can visit 🎉**
+
+That domain `https://<your-username>.github.io` is provided to you for free by GitHub Pages, and any project repositories with static HTML and CSS that you deploy will be visitable at a URL path on that domain.
+
+The `index.html` file has been mapped to the root of the `/hello-world` path. 
+
+You can create as many GitHub Pages sites as you want! 
+
+## Submit your deployed URL on Canvas
+
+There's an assignment in Canvas that asks for the URL of your deployed website. To get full credit, submit the URL of your deployed "Hello, world" website.
+
+The URL should look like:
+
+```
+https://<your-username>.github.io/hello-world/
+```
+
+And when anyone clicks that link, they should be brought to a real, live website. Test the link before you submit it!
+
 ## Grading with `rake grade`
 
 Once we've tested our work manually by visiting the live preview, and we think everything looks good, there's one more step we can take to be sure — run automated tests.
 
 For most of our projects, I have included automated tests that will visit every page and click on every link and make sure the app is behaving correctly under all circumstances. If it isn't, you will get immediate feedback so you can fix it.
 
-In the terminal tab in the bottom pane, open the bash prompt (i.e. not the terminal tab that is currently running `puma`). You can alway use the `+` icon in the terminal tab to open a fresh `%` bash prompt tab if you don't already have one open. 
+In the terminal tab in the bottom pane, open the bash prompt (i.e. not the terminal tab that is currently running `puma` with `bin/dev`). You can alway use the `+` icon in the terminal tab to open a fresh `%` bash prompt tab if you don't already have one open. 
 
 <aside markdown="1">
-If you want to cancel the `puma` server running with the `rackup` command (thus closing your live app preview), and return to the bash prompt to enter another command, you can just press: <kbd>Ctrl</kbd> + <kbd>c</kbd>
+If you want to cancel the `puma` server running with the `bin/dev` command (thus closing your live app preview), and return to the bash prompt to enter another command, you can just press: <kbd>Ctrl</kbd> + <kbd>c</kbd>
 
 That's a very important command: it will cancel any currently running terminal process if your terminal gets stuck doing something and you want access to the bash prompt again to enter new commands.
 </aside>
@@ -335,17 +390,3 @@ This will take you to a "build report" with the results of our automated tests f
 Is everything green? If so, then you have passed the tests and your grade has been registered. If you see any red, then try clicking on the test to see if there's more information that can help you fix the issue. You can close this browser tab when you are done with it. 
 
 That's fundamentally it for grading in this project and others in this course. **You can run `rake grade` in your terminal as many times as you want**, and you will get a new updated build report each time. Make it all green and you have completed the assignment!
-
-## Deploy your app
-
-We can now view our app in the live preview in our Codespace, and we've published the code to GitHub.
-
-Now let's see how we can actually deploy our app to the internet with a custom domain name so that anyone in the world can view what we created.
-
-You have two options for deployment:
-
-1. **Fly.io**. We recommend this option, since it works for dynamic web apps as well and we will use it later in the course. However, it does require you to enter credit card information. You will not be charged, but you must have a credit card to enter into your profile.
-
-2. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
-
-Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
