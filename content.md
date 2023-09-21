@@ -351,3 +351,7 @@ You have three options for deployment:
 3. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
 
 Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
+
+Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your Codespaces live app preview URL).
+
+---
