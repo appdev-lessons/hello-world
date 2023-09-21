@@ -342,10 +342,12 @@ We can now view our app in the live preview in our Codespace, and we've publishe
 
 Now let's see how we can actually deploy our app to the internet with a custom domain name so that anyone in the world can view what we created.
 
-You have two options for deployment:
+You have three options for deployment:
 
 1. **Fly.io**. We recommend this option, since it works for dynamic web apps as well and we will use it later in the course. However, it does require you to enter credit card information. You will not be charged, but you must have a credit card to enter into your profile.
 
-2. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
+2. **Render**. This option has a free tier without the need for a credit card. However, on the free tier web services are automatically spun down after 15 minutes of inactivity, so new visitors may experience a long delay when visiting your page.
+
+3. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
 
 Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
