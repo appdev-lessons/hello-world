@@ -292,8 +292,7 @@ Whenever you are ready to store your changes on GitHub, click the "Sync" button,
 Pressing "Sync" actually does two things: it runs "git pull" to pull down any changes from the repository on github.com and then runs "git push" to publish your current commits to the repository.
 </aside>
 
-<!-- ![](/assets/vscode-sync-button.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689104419/vscode-sync-button_mrbmda.png)
+![](/assets/vscode-sync-button.png)
 
 (You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.)
 
