@@ -116,7 +116,7 @@ A warehouse full of computers that people rent and connect to via the internet i
 
 Using a cloud computer to write and run our code used to take several more setup steps. However, happily for us, GitHub recently released a new product called Codespaces, which is a cloud IDE (integrated development environment) built right in to our repositories!
 
-## Start your first Codespace
+## Start your first codespace
 
 - Make sure you're on the page of your own fork (i.e. `github.com/<your-username>/hello-world`, i.e. _not_ my copy at `github.com/appdev-projects/hello-world`).
 - Click the "Code" drop-down button, click the "Codespaces" tab, and click "Create codespace on main".
@@ -128,13 +128,13 @@ This will open a "Setting up your codespace page".
 
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
-Be patient. The first time you setup a Codespace for a repository takes about two minutes. But subsequent loads of the Codespace will be much faster.
+Be patient. The first time you setup a codespace for a repository takes about two minutes. But subsequent loads of the codespace will be much faster.
 </div>
 
 
-### Sidenote: reopening a Codespace
+### Sidenote: reopening a codespace
 
-Sidenote: You can see [a list of all of your Codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
+Sidenote: You can see [a list of all of your codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
 
 If you close a workspace and then want to resume working on that project later, visit [the list](https://github.com/codespaces), locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
 
@@ -144,7 +144,7 @@ If you close a workspace and then want to resume working on that project later, 
 
 ### Codespace (VSCode) layout
 
-Whenever you boot up a fresh Codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
+Whenever you boot up a fresh codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
 
 The basic components of the VSCode window are the three **panes**:
 
@@ -230,7 +230,7 @@ The live app preview has a long, complicated URL, with the structure:
 https://USERNAME-CODESPACE-NAME-vrpqrxxrx7x2rxx-3000.preview.app.github.dev
 ```
 
-This URL is tied to the mini computer you are running in your Codespace. Specifically, it's tied to the terminal that you ran `rackup` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the Codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `rackup` again.
+This URL is tied to the mini computer you are running in your codespace. Specifically, it's tied to the terminal that you ran `rackup` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `rackup` again.
 
 At this point, in the live application browser tab you should see a 404 page missing message. Let's change that!
 
@@ -263,7 +263,7 @@ GitHub's core functionality is to allow us to save our code in the cloud. To do 
 - Make a **git commit**, which is a snapshot of our entire project at a given moment in time.
 - **Push** the commit from our local computer to GitHub.com.
 
-In your Codespace VSCode window, there are a few tabs on the left side bar that open in the left pane:
+In your codespace VSCode window, there are a few tabs on the left side bar that open in the left pane:
 
 <!-- ![](/assets/vscode-explorer-git-tabs-hello-world.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686709045/vscode-explorer-git-tabs-hello-world_swedfx.png)
@@ -334,7 +334,7 @@ Copy-paste the token from the Grades page into your terminal. This only needs to
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
 {: .bleed-full }
 
-You may get a pop up window in the Codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
+You may get a pop up window in the codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
 
 <!-- ![](assets/grades-token-enter.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686008287/grades-token-enter_wf7s8y.png)
@@ -354,7 +354,7 @@ That's fundamentally it for grading in this project and others in this course. *
 
 ## Deploy your app
 
-We can now view our app in the live preview in our Codespace, and we've published the code to GitHub.
+We can now view our app in the live preview in our codespace, and we've published the code to GitHub.
 
 Now let's see how we can actually deploy our app to the internet with a custom domain name so that anyone in the world can view what we created.
 
@@ -368,6 +368,6 @@ You have three options for deployment:
 
 Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
 
-Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your Codespaces live app preview URL).
+Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your codespace live app preview URL).
 
 ---
