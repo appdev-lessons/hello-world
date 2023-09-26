@@ -92,8 +92,7 @@ It will take a few seconds to make a copy, and then you should end up on a page 
 
 If all went well, you should see `github.com/<your-username>/<project-name>` in your address bar, and a note "forked from `appdev-projects/<project-name>`":
 
-<!-- ![](/assets/launch-grades-project-4.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701561/launch-grades-project-4_zpnslw.png)
+![](/assets/launch-grades-project-4.png)
 
 ----
 
