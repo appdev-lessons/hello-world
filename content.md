@@ -4,7 +4,7 @@ In this lesson, we'll walk through the workflow that we'll be using throughout t
 
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
-[Here is a very brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
+[Here is a brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
 </div>
 
 ## Get a GitHub account
@@ -32,13 +32,11 @@ LTI{Load Hello, World! assignment}(https://grades.firstdraft.com/launch)[S9ymPy6
 
 The very first time you load the Grades interface, you will be asked to sign in to your GitHub account if you're not already:
 
-<!-- ![](/assets/launch-grades-project-signin-to-github.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685996960/launch-grades-project-signin-to-github_yxmtvk.png)
+![](/assets/launch-grades-project-signin-to-github.png)
 
 You will then be asked to "Authorize Grades"; click the green button to proceed:
 
-<!-- ![](/assets/launch-grades-project-authorize-grades.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997353/launch-grades-project-authorize-grades_tgxaqr.png)
+![](/assets/launch-grades-project-authorize-grades.png)
 
 When you reach the "Project Setup" page, wait for approximately 15 seconds and then refresh the page. You should see a blue banner appear at the top of the page saying that you have been invited to the organization: "appdev-projects". This is the organization that we use to share all of the projects for the course.
 
