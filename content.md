@@ -265,8 +265,11 @@ In your codespace VSCode window, there are a few tabs on the left side bar that 
 
 Click on the "Source Control" tab, which will bring up this view in the left pane, where you can enter a **commit message** and click the "Commit" button:
 
-<!-- ![](/assets/vscode-git-commit-hello-world.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686709462/vscode-git-commit-hello-world_clmplq.png)
+---
+
+![](/assets/vscode-git-commit-hello-world.png)
+
+---
 
 You will see a message pop up asking if you would like to "stage all your changes and commit them directly". Click "Yes".
 
