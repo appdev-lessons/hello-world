@@ -150,8 +150,7 @@ The basic components of the VSCode window are the three **panes**:
 * the **bottom pane** 
   * containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
 
-<!-- ![](/assets/vscode-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338851/vscode-layout_yh62tb.png)
+![](https://excalidraw.com/#json=eiTGrewyrRHeupqnPivGv,SiQ1XO4pW-7_QlOJS-EGkA)
 {: .bleed-full }
 
 ### Reopen a pane
