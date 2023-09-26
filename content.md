@@ -121,8 +121,7 @@ Using a cloud computer to write and run our code used to take several more setup
 - Make sure you're on the page of your own fork (i.e. `github.com/<your-username>/hello-world`, i.e. _not_ my copy at `github.com/appdev-projects/hello-world`).
 - Click the "Code" drop-down button, click the "Codespaces" tab, and click "Create codespace on main".
 
-<!-- ![](/assets/launch-codespace.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685989212/launch-codespace_dl0erj.png)
+![](/assets/launch-codespace.png)
 {: .bleed-full }
 
 This will open a "Setting up your codespace page". 
