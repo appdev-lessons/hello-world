@@ -273,6 +273,13 @@ Click on the "Source Control" tab, which will bring up this view in the left pan
 
 You will see a message pop up asking if you would like to "stage all your changes and commit them directly". Click "Yes".
 
+<div class="bg-red-100 py-1 px-5" markdown="1">
+
+If you do not enter a commit message, then a window will open in the VSCode editor, and you will need to enter a commit message there then close the window to proceed. You cannot commit without a message.
+
+![](/assets/vscode-git-commit-no-message.png)
+</div>
+
 The best time to commit is right after you just got something to work, before you start on your next experiment. But, in general, you can never commit and push too often.
 
 Remember: **ABC**: *Always Be Committing (ABC)*.
