@@ -126,21 +126,17 @@ Using a cloud computer to write and run our code used to take several more setup
 
 This will open a "Setting up your codespace page". 
 
-<div class="bg-blue-100 py-1 px-5" markdown="1">
+<div class="bg-blue-100 py-1 px-5 bleed-full" markdown="1">
 
 Be patient. The first time you setup a codespace for a repository takes about two minutes. But subsequent loads of the codespace will be much faster.
-</div>
 
+You can see [a list of all of your codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
 
-### Sidenote: reopening a codespace
+If you close a workspace and then want to resume working on that project later, visit that page, locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
 
-Sidenote: You can see [a list of all of your codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
-
-If you close a workspace and then want to resume working on that project later, visit [the list](https://github.com/codespaces), locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
-
-<!-- ![](/assets/codespace-setup-9.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1680218038/codespace-setup-9_tddgdj.png)
+![](/assets/codespace-setup-9.png)
 {: .bleed-full }
+</div>
 
 ### Codespace (VSCode) layout
 
