@@ -82,8 +82,11 @@ On the "Create a new fork" page, make sure that your personal GitHub username is
 
 Now click "Create fork":
 
-<!-- ![](/assets/launch-grades-project-3.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701280/launch-grades-project-3_tnau3z.png)
+---
+
+![](/assets/launch-grades-project-3.png)
+
+---
 
 It will take a few seconds to make a copy, and then you should end up on a page for your own fork of the repository.
 
@@ -91,6 +94,8 @@ If all went well, you should see `github.com/<your-username>/<project-name>` in 
 
 <!-- ![](/assets/launch-grades-project-4.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701561/launch-grades-project-4_zpnslw.png)
+
+----
 
 ## GitHub Codespaces
 
