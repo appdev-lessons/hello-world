@@ -191,7 +191,7 @@ In the terminal tab, we have:
 In the terminal pane, click on the `+` icon to open a second bash prompt, then click on the prompt so that your cursor is shown after the `%` bash prompt. Type this command then hit <kbd>return</kbd>:
 
 ```bash
-rackup
+% rackup
 ```
 
 <!-- ![](/assets/bash-vs-rackup-puma.gif) -->
