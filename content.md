@@ -294,7 +294,10 @@ Pressing "Sync" actually does two things: it runs "git pull" to pull down any ch
 
 ![](/assets/vscode-sync-button.png)
 
-(You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.)
+<div class="bg-green-100 py-1 px-5" markdown="1">
+
+You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.
+</div>
 
 You should get into the habit of committing and pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
 
