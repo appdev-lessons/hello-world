@@ -42,11 +42,13 @@ When you reach the "Project Setup" page, wait for approximately 15 seconds and t
 
 Do not proceed until you see the notice. Refresh the page a few times; it should appear within 1 minute.  Click on the "accept invite" link, and then press the green button to join the organization.
 
-<!-- ![](/assets/launch-grades-project-accept-invite-1.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997960/launch-grades-project-accept-invite-1_gz93li.png)
+![](/assets/launch-grades-project-accept-invite-1.png)
 
-<!-- ![](/assets/launch-grades-project-accept-invite-2.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997950/launch-grades-project-accept-invite-2_iylajb.png)
+---
+
+![](/assets/launch-grades-project-accept-invite-2.png)
+
+---
 
 Once you've accepted the organization invitation, you can close that tab.
 
