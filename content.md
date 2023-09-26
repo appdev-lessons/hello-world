@@ -4,6 +4,39 @@ In this lesson, we'll walk through the workflow that we'll be using throughout t
 
 [Here is a very brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. But then PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
 
+<aside markdown="1">
+
+Here's margin note. Not really important for your understanding, but a useful note to keep nearby.
+</aside>
+
+<div class="bg-red-100 py-1 px-5" markdown="1">
+
+`class="bg-red-100 py-1 px-5"`
+
+Here's something important. Stop and internalize this!
+</div>
+
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+`class="bg-blue-100 py-1 px-5"`
+
+This is a little aside or digression, or something that might just help you out.
+</div>
+
+<div class="bg-green-100 py-1 px-5" markdown="1">
+
+`class="bg-green-100 py-1 px-5"`
+
+Not sure exactly what we would use green for.
+</div>
+
+<div class="bg-yellow-100 py-1 px-5" markdown="1">
+
+`class="bg-yellow-100 py-1 px-5"`
+
+Is yellow useful for something?
+</div>
+
 ## Get a GitHub account
 
 GitHub.com is the center of the software development universe, these days.
