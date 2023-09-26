@@ -126,7 +126,11 @@ Using a cloud computer to write and run our code used to take several more setup
 
 This will open a "Setting up your codespace page". 
 
-**Be patient. The first time you setup a Codespace for a repository takes about two minutes. But subsequent loads of the Codespace will be much faster.**
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+Be patient. The first time you setup a Codespace for a repository takes about two minutes. But subsequent loads of the Codespace will be much faster.
+</div>
+
 
 ### Sidenote: reopening a Codespace
 
