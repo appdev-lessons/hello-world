@@ -330,7 +330,7 @@ That's a very important command: it will cancel any currently running terminal p
 At the bash prompt, run the command:
 
 ```
-rake grade
+% rake grade
 ```
 
 The first time you run it (per project), it will ask you for an access token. Click the "Load assignment" button from the beginning of this lesson to return to the grades.firstdraft.com page for this project if you have since closed or lost that browser tab.
