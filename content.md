@@ -257,8 +257,11 @@ GitHub's core functionality is to allow us to save our code in the cloud. To do 
 
 In your codespace VSCode window, there are a few tabs on the left side bar that open in the left pane:
 
-<!-- ![](/assets/vscode-explorer-git-tabs-hello-world.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686709045/vscode-explorer-git-tabs-hello-world_swedfx.png)
+---
+
+![](/assets/vscode-explorer-git-tabs-hello-world.png)
+
+---
 
 Click on the "Source Control" tab, which will bring up this view in the left pane, where you can enter a **commit message** and click the "Commit" button:
 
