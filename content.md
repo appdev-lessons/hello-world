@@ -2,7 +2,10 @@
 
 In this lesson, we'll walk through the workflow that we'll be using throughout the course to set up projects, write some code, run the code, and grade our work.
 
-[Here is a very brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. But then PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video.
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+[Here is a brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
+</div>
 
 ## Get a GitHub account
 
@@ -21,7 +24,7 @@ We'll talk a lot more about GitHub and its features as we go along.
 
 In order to check our work and receive instant feedback, we'll be using a system called Grades (grades.firstdraft.com). Let's do some one-time setup to get it configured properly.
 
-- First, click the button below to load the Grades project in a new browser tab. Then come back to this page and follow the remaining steps.
+Click the button below to load the Grades project in a new browser tab. Then come back to this page and follow the remaining steps.
 
 LTI{Load Hello, World! assignment}(https://grades.firstdraft.com/launch)[S9ymPy6WCsn18gLbByVbZQ7k]{vfdtzJb5bLYqYwuqgeRKpc5d}(2)[Hello, World Project]
 
@@ -29,23 +32,23 @@ LTI{Load Hello, World! assignment}(https://grades.firstdraft.com/launch)[S9ymPy6
 
 The very first time you load the Grades interface, you will be asked to sign in to your GitHub account if you're not already:
 
-<!-- ![](/assets/launch-grades-project-signin-to-github.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685996960/launch-grades-project-signin-to-github_yxmtvk.png)
+![](/assets/launch-grades-project-signin-to-github.png)
 
 You will then be asked to "Authorize Grades"; click the green button to proceed:
 
-<!-- ![](/assets/launch-grades-project-authorize-grades.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997353/launch-grades-project-authorize-grades_tgxaqr.png)
+![](/assets/launch-grades-project-authorize-grades.png)
 
 When you reach the "Project Setup" page, wait for approximately 15 seconds and then refresh the page. You should see a blue banner appear at the top of the page saying that you have been invited to the organization: "appdev-projects". This is the organization that we use to share all of the projects for the course.
 
 Do not proceed until you see the notice. Refresh the page a few times; it should appear within 1 minute.  Click on the "accept invite" link, and then press the green button to join the organization.
 
-<!-- ![](/assets/launch-grades-project-accept-invite-1.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997960/launch-grades-project-accept-invite-1_gz93li.png)
+![](/assets/launch-grades-project-accept-invite-1.png)
 
-<!-- ![](/assets/launch-grades-project-accept-invite-2.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685997950/launch-grades-project-accept-invite-2_iylajb.png)
+---
+
+![](/assets/launch-grades-project-accept-invite-2.png)
+
+---
 
 Once you've accepted the organization invitation, you can close that tab.
 
@@ -57,8 +60,11 @@ When you load a Grades project, you'll arrive at a page with several links.
 
 Your first step will be to open the link that looks like `appdev-projects/<project-name>` in a new tab:
 
-<!-- ![](/assets/launch-hello-world-fork.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689100920/launch-hello-world-fork_c8kapv.png)
+---
+
+![](/assets/launch-hello-world-fork.png)
+
+---
 
 This will take you to my copy of the project, containing any starter code, on GitHub.com. "Repository" is Git's term for "a folder containing code". We also often say "repo", for short.
 
@@ -66,22 +72,29 @@ The next step is to create your own copy of the starter code, so that you can sa
 
 On my repo's page, click on the "Fork" button in the top-right:
 
-<!-- ![](/assets/launch-grades-project-2.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701065/launch-grades-project-2_hduxmk.png)
+---
+
+![](/assets/launch-grades-project-2.png)
+
+---
 
 On the "Create a new fork" page, make sure that your personal GitHub username is set as the "Owner" and that your copy's name is the same as mine. 
 
 Now click "Create fork":
 
-<!-- ![](/assets/launch-grades-project-3.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701280/launch-grades-project-3_tnau3z.png)
+---
+
+![](/assets/launch-grades-project-3.png)
+
+---
 
 It will take a few seconds to make a copy, and then you should end up on a page for your own fork of the repository.
 
 If all went well, you should see `github.com/<your-username>/<project-name>` in your address bar, and a note "forked from `appdev-projects/<project-name>`":
 
-<!-- ![](/assets/launch-grades-project-4.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686701561/launch-grades-project-4_zpnslw.png)
+![](/assets/launch-grades-project-4.png)
+
+----
 
 ## GitHub Codespaces
 
@@ -103,32 +116,30 @@ A warehouse full of computers that people rent and connect to via the internet i
 
 Using a cloud computer to write and run our code used to take several more setup steps. However, happily for us, GitHub recently released a new product called Codespaces, which is a cloud IDE (integrated development environment) built right in to our repositories!
 
-## Start your first Codespace
+## Start your first codespace
 
 - Make sure you're on the page of your own fork (i.e. `github.com/<your-username>/hello-world`, i.e. _not_ my copy at `github.com/appdev-projects/hello-world`).
 - Click the "Code" drop-down button, click the "Codespaces" tab, and click "Create codespace on main".
 
-<!-- ![](/assets/launch-codespace.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1685989212/launch-codespace_dl0erj.png)
+![](/assets/launch-codespace.png)
 {: .bleed-full }
 
 This will open a "Setting up your codespace page". 
 
-**Be patient. The first time you setup a Codespace for a repository takes about two minutes. But subsequent loads of the Codespace will be much faster.**
+<div class="bg-blue-100 py-1 px-5" markdown="1">
 
-### Sidenote: reopening a Codespace
+Be patient. The first time you setup a codespace for a repository takes about two minutes. But subsequent loads of the codespace will be much faster.
 
-Sidenote: You can see [a list of all of your Codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
+You can see [a list of all of your codespaces at github.com/codespaces](https://github.com/codespaces). Over time, you'll have dozens. It might be a good idea to bookmark that page — you'll be visiting it a lot.
 
-If you close a workspace and then want to resume working on that project later, visit [the list](https://github.com/codespaces), locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
+If you close a workspace and then want to resume working on that project later, visit that page, locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
 
-<!-- ![](/assets/codespace-setup-9.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1680218038/codespace-setup-9_tddgdj.png)
-{: .bleed-full }
+![](/assets/codespace-setup-9.png)
+</div>
 
 ### Codespace (VSCode) layout
 
-Whenever you boot up a fresh Codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
+Whenever you boot up a fresh codespace, [Visual Studio Code](https://code.visualstudio.com/) (a.k.a. VSCode) is the application that you are interacting with.
 
 The basic components of the VSCode window are the three **panes**:
 
@@ -139,8 +150,7 @@ The basic components of the VSCode window are the three **panes**:
 * the **bottom pane** 
   * containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
 
-<!-- ![](/assets/vscode-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338851/vscode-layout_yh62tb.png)
+![](/assets/vscode-layout.png)
 {: .bleed-full }
 
 ### Reopen a pane
@@ -152,10 +162,9 @@ To reopen them, there are keyboard shortcuts to close and reopen:
 * <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>B</kbd> for left pane, 
 * <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>J</kbd> for bottom pane.
 
-But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "View" to reopen:
+But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "Terminal" to reopen:
 
-<!-- ![](/assets/vscode-reopen-editor-or-terminal.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338878/vscode-reopen-editor-or-terminal_ekhafk.png)
+![](/assets/vscode-reopen-editor-or-terminal.png)
 {: .bleed-full }
 
 ### The terminal tab
@@ -166,8 +175,7 @@ This is a place for you to type commands ("instructions") to be run by the under
 
 In the terminal tab, we have:
 
-<!-- ![](/assets/terminal-hello-world-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689097394/terminal-hello-world-layout_pin2jy.png)
+![](/assets/terminal-hello-world-layout.png)
 {: .bleed-full }
 
 * The GitHub repo name.
@@ -183,7 +191,7 @@ In the terminal tab, we have:
 In the terminal pane, click on the `+` icon to open a second bash prompt, then click on the prompt so that your cursor is shown after the `%` bash prompt. Type this command then hit <kbd>return</kbd>:
 
 ```
-rackup
+% rackup
 ```
 
 <!-- ![](/assets/bash-vs-rackup-puma.gif) -->
@@ -214,7 +222,7 @@ The live app preview has a long, complicated URL, with the structure:
 https://USERNAME-CODESPACE-NAME-vrpqrxxrx7x2rxx-3000.preview.app.github.dev
 ```
 
-This URL is tied to the mini computer you are running in your Codespace. Specifically, it's tied to the terminal that you ran `rackup` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the Codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `rackup` again.
+This URL is tied to the mini computer you are running in your codespace. Specifically, it's tied to the terminal that you ran `rackup` in, which is now running the `puma` web server. If that terminal tab is closed for any reason (including if you close the codespace), your live app will no longer be running, and the URL will not be visitable. But you can always open a new terminal tab with `+` and `rackup` again.
 
 At this point, in the live application browser tab you should see a 404 page missing message. Let's change that!
 
@@ -247,17 +255,30 @@ GitHub's core functionality is to allow us to save our code in the cloud. To do 
 - Make a **git commit**, which is a snapshot of our entire project at a given moment in time.
 - **Push** the commit from our local computer to GitHub.com.
 
-In your Codespace VSCode window, there are a few tabs on the left side bar that open in the left pane:
+In your codespace VSCode window, there are a few tabs on the left side bar that open in the left pane:
 
-<!-- ![](/assets/vscode-explorer-git-tabs-hello-world.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686709045/vscode-explorer-git-tabs-hello-world_swedfx.png)
+---
+
+![](/assets/vscode-explorer-git-tabs-hello-world.png)
+
+---
 
 Click on the "Source Control" tab, which will bring up this view in the left pane, where you can enter a **commit message** and click the "Commit" button:
 
-<!-- ![](/assets/vscode-git-commit-hello-world.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686709462/vscode-git-commit-hello-world_clmplq.png)
+---
+
+![](/assets/vscode-git-commit-hello-world.png)
+
+---
 
 You will see a message pop up asking if you would like to "stage all your changes and commit them directly". Click "Yes".
+
+<div class="bg-red-100 py-1 px-5" markdown="1">
+
+If you do not enter a commit message, then a window will open in the VSCode editor, and you will need to enter a commit message there then close the window to proceed. You cannot commit without a message.
+
+![](/assets/vscode-git-commit-no-message.png)
+</div>
 
 The best time to commit is right after you just got something to work, before you start on your next experiment. But, in general, you can never commit and push too often.
 
@@ -271,10 +292,12 @@ Whenever you are ready to store your changes on GitHub, click the "Sync" button,
 Pressing "Sync" actually does two things: it runs "git pull" to pull down any changes from the repository on github.com and then runs "git push" to publish your current commits to the repository.
 </aside>
 
-<!-- ![](/assets/vscode-sync-button.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689104419/vscode-sync-button_mrbmda.png)
+![](/assets/vscode-sync-button.png)
 
-(You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.)
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.
+</div>
 
 You should get into the habit of committing and pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
 
@@ -307,7 +330,7 @@ That's a very important command: it will cancel any currently running terminal p
 At the bash prompt, run the command:
 
 ```
-rake grade
+% rake grade
 ```
 
 The first time you run it (per project), it will ask you for an access token. Click the "Load assignment" button from the beginning of this lesson to return to the grades.firstdraft.com page for this project if you have since closed or lost that browser tab.
@@ -318,7 +341,7 @@ Copy-paste the token from the Grades page into your terminal. This only needs to
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
 {: .bleed-full }
 
-You may get a pop up window in the Codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
+You may get a pop up window in the codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
 
 <!-- ![](assets/grades-token-enter.png) -->
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686008287/grades-token-enter_wf7s8y.png)
@@ -338,7 +361,7 @@ That's fundamentally it for grading in this project and others in this course. *
 
 ## Deploy your app
 
-We can now view our app in the live preview in our Codespace, and we've published the code to GitHub.
+We can now view our app in the live preview in our codespace, and we've published the code to GitHub.
 
 Now let's see how we can actually deploy our app to the internet with a custom domain name so that anyone in the world can view what we created.
 
@@ -352,6 +375,6 @@ You have three options for deployment:
 
 Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
 
-Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your Codespaces live app preview URL).
+Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your codespace live app preview URL).
 
 ---
