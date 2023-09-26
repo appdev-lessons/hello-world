@@ -24,7 +24,7 @@ We'll talk a lot more about GitHub and its features as we go along.
 
 In order to check our work and receive instant feedback, we'll be using a system called Grades (grades.firstdraft.com). Let's do some one-time setup to get it configured properly.
 
-- First, click the button below to load the Grades project in a new browser tab. Then come back to this page and follow the remaining steps.
+Click the button below to load the Grades project in a new browser tab. Then come back to this page and follow the remaining steps.
 
 LTI{Load Hello, World! assignment}(https://grades.firstdraft.com/launch)[S9ymPy6WCsn18gLbByVbZQ7k]{vfdtzJb5bLYqYwuqgeRKpc5d}(2)[Hello, World Project]
 
