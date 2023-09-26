@@ -175,8 +175,7 @@ This is a place for you to type commands ("instructions") to be run by the under
 
 In the terminal tab, we have:
 
-<!-- ![](/assets/terminal-hello-world-layout.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689097394/terminal-hello-world-layout_pin2jy.png)
+![](/assets/terminal-hello-world-layout.png)
 {: .bleed-full }
 
 * The GitHub repo name.
