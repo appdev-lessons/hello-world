@@ -162,10 +162,9 @@ To reopen them, there are keyboard shortcuts to close and reopen:
 * <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>B</kbd> for left pane, 
 * <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>J</kbd> for bottom pane.
 
-But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "View" to reopen:
+But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "Terminal" to reopen:
 
-<!-- ![](/assets/vscode-reopen-editor-or-terminal.png) -->
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686338878/vscode-reopen-editor-or-terminal_ekhafk.png)
+![](/assets/vscode-reopen-editor-or-terminal.png)
 {: .bleed-full }
 
 ### The terminal tab
