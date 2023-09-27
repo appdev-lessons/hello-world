@@ -361,20 +361,20 @@ That's fundamentally it for grading in this project and others in this course. *
 
 ## Deploy your app
 
-We can now view our app in the live preview in our codespace, and we've published the code to GitHub.
+We can now view our app in the live preview in our codespace, and we've backed up our code to GitHub.
 
-Now let's see how we can actually deploy our app to the internet with a custom domain name so that anyone in the world can view what we created.
+Now let's see how we can actually deploy our app to a real hosting provider so that anyone in the world can view what we created.
 
 You have three options for deployment:
 
-1. **Fly.io**. We recommend this option, since it works for dynamic web apps as well and we will use it later in the course. However, it does require you to enter credit card information. You will not be charged, but you must have a credit card to enter into your profile.
+1. **Render.com**. This company offers a free tier without the need for a credit card. However, on the free tier web services are automatically spun down after 15 minutes of inactivity, so new visitors may experience a long delay when visiting your page.
 
-2. **Render**. This option has a free tier without the need for a credit card. However, on the free tier web services are automatically spun down after 15 minutes of inactivity, so new visitors may experience a long delay when visiting your page.
+2. **Fly.io**. This company requires a credit card for identity verification, but includes enough free allowance to run an app without any restrictions.
 
 3. **GitHub Pages**. This option is completely free and does not require a credit card, but it will only work for static websites.
 
-Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
+We recommend #1, Render.com, but you can choose any of them (or all of them, to see how they differ). Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
 
-Once you deploy, submit the URL of your deployed app on Canvas; the domain should be either `.fly.dev` or `onrender.com` or `.github.io` (_not_ your codespace live app preview URL).
+Once you deploy, submit the URL of your deployed app on Canvas; the domain should of your website shoud end in either `.onrender.com`, `.fly.dev`,  or `.github.io` (_not_ your codespace live app preview URL).
 
 ---
