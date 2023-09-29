@@ -213,11 +213,11 @@ To open the live app preview in a new browser tab, visit the "Ports" tab in the 
 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1688656108/ports-tab_cfaa1k.png)
 
-If you cannot see a clear green dot 🟢 on the left side, it may be due to the color theme settings of your codespaces. To change this settings, click on the gear icon in the at the bottom left corner of the page, select "Themes", and then "Color Themes".
+If you cannot see a clear green dot 🟢 on the left side, it may be due to the color theme settings of your codespaces. To change this setting, click on the gear icon at the bottom left corner of the page, select "Themes", and then "Color Themes".
 
 ![](/assets/vscode-color-theme-settings.png)
 
-The two best options seem to be "Light Modern" or "Dark Modern"
+The two best options are "Light Modern" or "Dark Modern"
 
 ![](/assets/vscode-theme-selection.png)
 
