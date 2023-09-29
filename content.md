@@ -5,6 +5,7 @@ In this lesson, we'll walk through the workflow that we'll be using throughout t
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
 [Here is a brief video demonstration](https://share.descript.com/view/aSOPQUdgU9G). You should not rely entirely on the video to complete this lesson, but I wanted to give you a quick, visual overview of the process. As you watch the video, pause it frequently and **READ** the relevant lesson sections as you are going through the steps. There is much more detail in the text than in the video.
+
 </div>
 
 ## Get a GitHub account
@@ -40,7 +41,7 @@ You will then be asked to "Authorize Grades"; click the green button to proceed:
 
 When you reach the "Project Setup" page, wait for approximately 15 seconds and then refresh the page. You should see a blue banner appear at the top of the page saying that you have been invited to the organization: "appdev-projects". This is the organization that we use to share all of the projects for the course.
 
-Do not proceed until you see the notice. Refresh the page a few times; it should appear within 1 minute.  Click on the "accept invite" link, and then press the green button to join the organization.
+Do not proceed until you see the notice. Refresh the page a few times; it should appear within 1 minute. Click on the "accept invite" link, and then press the green button to join the organization.
 
 ![](/assets/launch-grades-project-accept-invite-1.png)
 
@@ -78,7 +79,7 @@ On my repo's page, click on the "Fork" button in the top-right:
 
 ---
 
-On the "Create a new fork" page, make sure that your personal GitHub username is set as the "Owner" and that your copy's name is the same as mine. 
+On the "Create a new fork" page, make sure that your personal GitHub username is set as the "Owner" and that your copy's name is the same as mine.
 
 Now click "Create fork":
 
@@ -94,7 +95,7 @@ If all went well, you should see `github.com/<your-username>/<project-name>` in 
 
 ![](/assets/launch-grades-project-4.png)
 
-----
+---
 
 ## GitHub Codespaces
 
@@ -102,9 +103,9 @@ We have loaded the assignment and made our own personal copy of the code. It's t
 
 One of the most painful parts of learning how to program, in the old days, was simply setting up your computer to be able to write and run code. At a minimum, we needed to install:
 
-  - An application to write your code with.
+- An application to write your code with.
 
-  - The programming language itself (e.g. Ruby). Writing code is not useful on its own if we don't have something to run it with.
+- The programming language itself (e.g. Ruby). Writing code is not useful on its own if we don't have something to run it with.
 
 There are so many different combinations of hardware, operating systems, previously installed software, etc., that just getting these things installed would often stop you before you started writing your first program. We can't allow that!
 
@@ -124,7 +125,7 @@ Using a cloud computer to write and run our code used to take several more setup
 ![](/assets/launch-codespace.png)
 {: .bleed-full }
 
-This will open a "Setting up your codespace page". 
+This will open a "Setting up your codespace page".
 
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
@@ -135,6 +136,7 @@ You can see [a list of all of your codespaces at github.com/codespaces](https://
 If you close a workspace and then want to resume working on that project later, visit that page, locate the existing workspace, click the `...` menu, select "Open in ...", and "Open in browser":
 
 ![](/assets/codespace-setup-9.png)
+
 </div>
 
 ### Codespace (VSCode) layout
@@ -143,12 +145,12 @@ Whenever you boot up a fresh codespace, [Visual Studio Code](https://code.visual
 
 The basic components of the VSCode window are the three **panes**:
 
-* the **left pane** 
-  * containing the **file explorer** and **source control tabs** (where you create and open files and visit your Git version control)
-* the **top pane** 
-  * containing the **code editor tabs** (where you type and edit files in your codebase)
-* the **bottom pane** 
-  * containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
+- the **left pane**
+  - containing the **file explorer** and **source control tabs** (where you create and open files and visit your Git version control)
+- the **top pane**
+  - containing the **code editor tabs** (where you type and edit files in your codebase)
+- the **bottom pane**
+  - containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
 
 ![](/assets/vscode-layout.png)
 {: .bleed-full }
@@ -159,8 +161,8 @@ Sometimes you might accidentally close out of the explorer (left pane) or termin
 
 To reopen them, there are keyboard shortcuts to close and reopen:
 
-* <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>B</kbd> for left pane, 
-* <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>J</kbd> for bottom pane.
+- <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>B</kbd> for left pane,
+- <kbd>Ctrl</kbd> (Windows) or <kbd>Cmd</kbd> (Mac) + <kbd>J</kbd> for bottom pane.
 
 But, you can always click on the top left hamburger menu to bring up the VSCode options and visit "Terminal" to reopen:
 
@@ -178,13 +180,13 @@ In the terminal tab, we have:
 ![](/assets/terminal-hello-world-layout.png)
 {: .bleed-full }
 
-* The GitHub repo name.
-* The current git "branch", or version of the code, that you are on (usually this will be `main`).
-* The `%` sign, or **bash prompt**. 
-    * `bash` is a program running at the operating system level that allows you to enter instructions to the computer.
-    * You may see other styles of **command prompt**, like a `$` or `>` symbol. If you see one of these symbols at the end of your terminal prompt, it means the terminal can be typed into and new commands can be run.
-* A `+` button icon for opening additional fresh bash prompts in tabs.
-* If you open another bash tab, you will see a navigation pane to click between them.
+- The GitHub repo name.
+- The current git "branch", or version of the code, that you are on (usually this will be `main`).
+- The `%` sign, or **bash prompt**.
+  - `bash` is a program running at the operating system level that allows you to enter instructions to the computer.
+  - You may see other styles of **command prompt**, like a `$` or `>` symbol. If you see one of these symbols at the end of your terminal prompt, it means the terminal can be typed into and new commands can be run.
+- A `+` button icon for opening additional fresh bash prompts in tabs.
+- If you open another bash tab, you will see a navigation pane to click between them.
 
 ## `rackup`: Your live application preview
 
@@ -195,22 +197,33 @@ In the terminal pane, click on the `+` icon to open a second bash prompt, then c
 ```
 
 <!-- ![](/assets/bash-vs-rackup-puma.gif) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689098330/bash-vs-rackup-puma_pmbidx.gif)
 {: .bleed-full }
 
 A few things should have happened:
 
-* The name of the current prompt in the navigation pane should have changed from `bash` to `puma`. This name is telling you the current program that is running in that terminal. In this case `puma`, which is the web server that we are using to view the app. In the original terminal, you will still see `bash` and if you click back to that terminal you will see the `%` bash prompt.
+- The name of the current prompt in the navigation pane should have changed from `bash` to `puma`. This name is telling you the current program that is running in that terminal. In this case `puma`, which is the web server that we are using to view the app. In the original terminal, you will still see `bash` and if you click back to that terminal you will see the `%` bash prompt.
 
-* In the terminal that is now running the `puma` web server, you should see a long output, which is just telling you that the **live application preview** is running. You can no longer type into this terminal tab now (you won't see the `%` sign), because it is now dedicated to running your application server.
+- In the terminal that is now running the `puma` web server, you should see a long output, which is just telling you that the **live application preview** is running. You can no longer type into this terminal tab now (you won't see the `%` sign), because it is now dedicated to running your application server.
 
-* You may be prompted in a little pop-up message to "Open browser". 
+- You may be prompted in a little pop-up message to "Open browser".
 
 To open the live app preview in a new browser tab, visit the "Ports" tab in the bottom pane, look for the port with a green dot 🟢 on the left side (indicating that it is active), and hover over the "Local Address" column, then click the globe 🌐 button to "Open in Browser":
 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1688656108/ports-tab_cfaa1k.png)
 
-Clicking this icon should open a new browser tab with the live preview of your app (but there's nothing there yet, so you'll see a 404 page not found message). 
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
+If you cannot see a clear green dot 🟢 on the left side, it may be due to the color theme settings of your codespaces. To change this setting, click on the gear icon at the bottom left corner of the page, select "Themes", and then "Color Themes".
+
+![](/assets/vscode-color-theme-settings.png)
+
+Experiment with light and dark themes, and see what you prefer. A lighter theme may make the port icon more obvious.
+
+</div>
+
+Clicking this icon should open a new browser tab with the live preview of your app (but there's nothing there yet, so you'll see a 404 page not found message).
 
 If you ever close this browser tab, you can reopen the live app preview at any time by visiting the Ports tab.
 
@@ -278,11 +291,12 @@ You will see a message pop up asking if you would like to "stage all your change
 If you do not enter a commit message, then a window will open in the VSCode editor, and you will need to enter a commit message there then close the window to proceed. You cannot commit without a message.
 
 ![](/assets/vscode-git-commit-no-message.png)
+
 </div>
 
 The best time to commit is right after you just got something to work, before you start on your next experiment. But, in general, you can never commit and push too often.
 
-Remember: **ABC**: *Always Be Committing (ABC)*.
+Remember: **ABC**: _Always Be Committing (ABC)_.
 
 Did you notice the "Commit" button change to "Sync" after you committed?
 
@@ -297,6 +311,7 @@ Pressing "Sync" actually does two things: it runs "git pull" to pull down any ch
 <div class="bg-blue-100 py-1 px-5" markdown="1">
 
 You may get a message after this first sync asking if you would like to periodically run "git fetch". You can say "Yes" to this.
+
 </div>
 
 You should get into the habit of committing and pushing your code to GitHub very often. If you do, then you're certain never to lose your work, among many other benefits of using GitHub to store your code.
@@ -306,10 +321,12 @@ When you push the code, each commit you made gets registered in the history of y
 Visit the repo at `github.com/<your-username>/hello-world` to see the published commits, stored safely forever:
 
 <!-- ![](/assets/vscode-git-pushed-history-hello-world-1.png) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689105281/vscode-git-pushed-history-hello-world-1_nqtupr.png)
 {: .bleed-full }
 
 <!-- ![](/assets/vscode-git-pushed-history-hello-world-2.png) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1689105276/vscode-git-pushed-history-hello-world-2_yz3has.png)
 {: .bleed-full }
 
@@ -319,12 +336,13 @@ Once we've tested our work manually by visiting the live preview, and we think e
 
 For most of our projects, I have included automated tests that will visit every page and click on every link and make sure the app is behaving correctly under all circumstances. If it isn't, you will get immediate feedback so you can fix it.
 
-In the terminal tab in the bottom pane, open the bash prompt (i.e. not the terminal tab that is currently running `puma`). You can alway use the `+` icon in the terminal tab to open a fresh `%` bash prompt tab if you don't already have one open. 
+In the terminal tab in the bottom pane, open the bash prompt (i.e. not the terminal tab that is currently running `puma`). You can alway use the `+` icon in the terminal tab to open a fresh `%` bash prompt tab if you don't already have one open.
 
 <aside markdown="1">
 If you want to cancel the `puma` server running with the `rackup` command (thus closing your live app preview), and return to the bash prompt to enter another command, you can just press: <kbd>Ctrl</kbd> + <kbd>c</kbd>
 
 That's a very important command: it will cancel any currently running terminal process if your terminal gets stuck doing something and you want access to the bash prompt again to enter new commands.
+
 </aside>
 
 At the bash prompt, run the command:
@@ -338,24 +356,27 @@ The first time you run it (per project), it will ask you for an access token. Cl
 Copy-paste the token from the Grades page into your terminal. This only needs to be done one time, and then the token will be stored in that workspace:
 
 <!-- ![](/assets/grades-token.png) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
 {: .bleed-full }
 
 You may get a pop up window in the codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
 
 <!-- ![](assets/grades-token-enter.png) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686008287/grades-token-enter_wf7s8y.png)
 
 You should see output that looks like:
 
 <!-- ![](assets/grades-token-submission-url.png) -->
+
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686008310/grades-token-submission-url_lc4mpf.png)
 
 Copy-paste the Results URL into a new tab, or <kbd>Cmd</kbd> + click (Mac) / <kbd>Ctrl</kbd> + click (Windows) on it. (Select "Trust grades.firstdraft.com" in the dialog that comes up.)
 
 This will take you to a "build report" with the results of our automated tests for the project.
 
-Is everything green? If so, then you have passed the tests and your grade has been registered. If you see any red, then try clicking on the test to see if there's more information that can help you fix the issue. You can close this browser tab when you are done with it. 
+Is everything green? If so, then you have passed the tests and your grade has been registered. If you see any red, then try clicking on the test to see if there's more information that can help you fix the issue. You can close this browser tab when you are done with it.
 
 That's fundamentally it for grading in this project and others in this course. **You can run `rake grade` in your terminal as many times as you want**, and you will get a new updated build report each time. Make it all green and you have completed the assignment!
 
@@ -375,6 +396,6 @@ You have three options for deployment:
 
 We recommend #1, Render.com, but you can choose any of them (or all of them, to see how they differ). Depending on which option you choose, find the appropriate next lesson on Canvas to deploy the "Hello, World" web site.
 
-Once you deploy, submit the URL of your deployed app on Canvas; the domain should of your website shoud end in either `.onrender.com`, `.fly.dev`,  or `.github.io` (_not_ your codespace live app preview URL).
+Once you deploy, submit the URL of your deployed app on Canvas; the domain should of your website shoud end in either `.onrender.com`, `.fly.dev`, or `.github.io` (_not_ your codespace live app preview URL).
 
 ---
