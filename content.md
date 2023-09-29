@@ -213,13 +213,15 @@ To open the live app preview in a new browser tab, visit the "Ports" tab in the 
 
 ![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1688656108/ports-tab_cfaa1k.png)
 
+<div class="bg-blue-100 py-1 px-5" markdown="1">
+
 If you cannot see a clear green dot 🟢 on the left side, it may be due to the color theme settings of your codespaces. To change this setting, click on the gear icon at the bottom left corner of the page, select "Themes", and then "Color Themes".
 
 ![](/assets/vscode-color-theme-settings.png)
 
-The two best options are "Light Modern" or "Dark Modern"
+Experiment with light and dark themes, and see what you prefer. A lighter theme may make the port icon more obvious.
 
-![](/assets/vscode-theme-selection.png)
+</div>
 
 Clicking this icon should open a new browser tab with the live preview of your app (but there's nothing there yet, so you'll see a 404 page not found message).
 
