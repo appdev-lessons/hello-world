@@ -145,12 +145,13 @@ Whenever you boot up a fresh codespace, [Visual Studio Code](https://code.visual
 
 The basic components of the VSCode window are the three **panes**:
 
-- the **left pane**
-  - containing the **file explorer** and **source control tabs** (where you create and open files and visit your Git version control)
-- the **top pane**
-  - containing the **code editor tabs** (where you type and edit files in your codebase)
-- the **bottom pane**
-  - containing the **terminal** and **ports tabs** (where you run a live app server on a port with `rackup` and run `rake grade`)
+* the **left pane** 
+  * containing the **file explorer** and **source control tabs** (where you can create and open files and visit your Git version control)
+* the **top pane** 
+  * containing the **code editor tabs** (where you can type and edit files in your codebase)
+* the **bottom pane** 
+  * containing the **terminal** and **ports tabs** (where you can run commands like `rackup` to launch a live app server on a port)
+
 
 ![](/assets/vscode-layout.png)
 {: .bleed-full }
