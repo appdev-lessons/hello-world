@@ -59,7 +59,7 @@ Phew! Fortunately, we only needed to do this setup once.
 
 When you load a Grades project, you'll arrive at a page with several links.
 
-Your first step will be to open the link that looks like `appdev-projects/<project-name>` in a new tab:
+Your first step will be to open link to fork the project:
 
 ---
 
@@ -70,14 +70,6 @@ Your first step will be to open the link that looks like `appdev-projects/<proje
 This will take you to my copy of the project, containing any starter code, on GitHub.com. "Repository" is Git's term for "a folder containing code". We also often say "repo", for short.
 
 The next step is to create your own copy of the starter code, so that you can save your work and have it forever. GitHub calls these copies "forks".
-
-On my repo's page, click on the "Fork" button in the top-right:
-
----
-
-![](/assets/launch-grades-project-2.png)
-
----
 
 On the "Create a new fork" page, make sure that your personal GitHub username is set as the "Owner" and that your copy's name is the same as mine.
 
@@ -356,9 +348,7 @@ The first time you run it (per project), it will ask you for an access token. Cl
 
 Copy-paste the token from the Grades page into your terminal. This only needs to be done one time, and then the token will be stored in that workspace:
 
-<!-- ![](/assets/grades-token.png) -->
-
-![](https://res.cloudinary.com/dmxgp9oq2/image/upload/v1686005312/grades-token_vyb9cy.png)
+![](/assets/copy-rake-grade-token.png)
 {: .bleed-full }
 
 You may get a pop up window in the codespace workspace asking for permission to paste from your clipboard into the workspace, you should "Allow" this action.
